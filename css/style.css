@@ -39,7 +39,7 @@ li a {
 
 h1 {
   background-color: #4aaaa5;
-  padding: 30px;
+  padding: 20px 30px;
   margin-left: 18%;
   color: white;
   float: left;
@@ -83,6 +83,7 @@ img {
 p {
   padding: 5px 10px 5px 10px;
   text-indent: 20px;
+  line-height: 24px;
 }
 
 /***** Contact Form Styling *****/
@@ -106,7 +107,7 @@ p {
 
 form {
   background-color: white;
-  width: 655px;
+  width: 103%;
   height: 396px;
   resize: vertical;
 }
@@ -136,20 +137,20 @@ input[type=submit]:hover {
 
 #fname {
   float: left;
-  width: 90%;
+  width: 65%;
   margin-left: 4%;
 }
 
 #email {
   float: left;
   clear: left;
-  width: 90%;
+  width: 65%;
   margin-left: 4%;
 }
 
 #subject {
   height: 200px;
-  width: 90%;
+  width: 65%;
   float: left;
   clear: left;
   margin-left: 4%;
@@ -191,8 +192,8 @@ textarea {
 /*** Hangman Game ***/
 .portimg {
   float: left;
-  width: 40%;
-  height: 138px;
+  width: 26%;
+  height: 102px;
   position: relative;
   margin-left: 4%;
   margin-top: 3%;
