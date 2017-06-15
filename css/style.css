@@ -137,20 +137,20 @@ input[type=submit]:hover {
 
 #fname {
   float: left;
-  width: 65%;
+  width: 90%;
   margin-left: 4%;
 }
 
 #email {
   float: left;
   clear: left;
-  width: 65%;
+  width: 90%;
   margin-left: 4%;
 }
 
 #subject {
   height: 200px;
-  width: 65%;
+  width: 90%;
   float: left;
   clear: left;
   margin-left: 4%;
