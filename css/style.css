@@ -1,0 +1,342 @@
+*{
+  color: #777777;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+body {
+  background: url(../images/concrete_seamless.png);
+}
+
+/***** Header styling *****/
+header {
+  background-color: #fff;
+  width: 100%;
+  overflow: auto;
+  border-bottom: 3px solid #ccc;
+  font-family:'Georgia', Times, 'Times New Roman', serif;
+}
+
+#special {
+  margin-right: 26%;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+  margin-right: 20%;
+  padding-top: 15px;
+}
+
+li {
+  display: inline;
+  font-size: larger;
+}
+
+li a {
+  padding: 20px;
+  text-decoration: none;
+}
+
+h1 {
+  background-color: #4aaaa5;
+  padding: 30px;
+  margin-left: 18%;
+  color: white;
+  float: left;
+  font-size: 35px;
+}
+
+/***** About Styling *****/
+h2 {
+  font-size: 35px;
+  padding: 0 0 4px 61px;
+  border-bottom: 2px solid #ccc;
+  color: #4aaaa5
+}
+
+#container{
+  background-color: white;
+  width: 38%;
+  height: 406px;
+  margin-top: 30px;
+  float: left;
+  margin-left: 18%;
+}
+
+#about {
+  margin-left: 14%;
+  margin-top: 6%;
+  background-color: white;
+  max-width: 78%;
+  max-width: 68%;
+  float: left;
+}
+
+img {
+  max-width: 36%;
+  max-height:200px;
+  float: left;
+  clear: left;
+  padding: 10px;
+}
+
+p {
+  padding: 5px 10px 5px 10px;
+  text-indent: 20px;
+}
+
+/***** Contact Form Styling *****/
+#container2 {
+  background-color: white;
+  width: 38%;
+  max-height: 503px;
+  margin-top: 30px;
+  float: left;
+  margin-left: 18%;
+}
+
+.formfield {
+  float: left;
+  margin-left: 4%;
+  margin-top: 14px;
+  background-color: white;
+  height: 437px;
+  width: 90%;
+}
+
+form {
+  background-color: white;
+  width: 655px;
+  height: 396px;
+  resize: vertical;
+}
+
+input[type=text], select, textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #4aaaa5;
+}
+
+input[type=submit]:hover {
+  background-color: #4aaaa5;
+}
+
+#fname {
+  float: left;
+  width: 90%;
+  margin-left: 4%;
+}
+
+#email {
+  float: left;
+  clear: left;
+  width: 90%;
+  margin-left: 4%;
+}
+
+#subject {
+  height: 200px;
+  width: 90%;
+  float: left;
+  clear: left;
+  margin-left: 4%;
+}
+
+.submit {
+  float: left;
+  clear: left;
+  margin-left: 4%;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+}
+/***** Porftolio Styling *****/
+#container3 {
+  width: 33%;
+  height: 654px;
+  background: white;
+  position: absolute;
+  margin-left: 18%;
+  margin-top: 30px;
+}
+
+#portfolio {
+  background-color: white;
+  width: 90%;
+  height: 600px;
+  margin-top: 30px;
+  float: left;
+  clear: left;
+  margin-left: 5%;
+}
+
+#portfolio img {
+  border: 2px solid #4aaaa5;
+}
+/*** Hangman Game ***/
+.portimg {
+  float: left;
+  width: 40%;
+  height: 138px;
+  position: relative;
+  margin-left: 4%;
+  margin-top: 3%;
+}
+
+#hang span {
+  position: absolute;
+  top: 234px;
+  background: #4aaaa5;
+  padding: 15px 58px;
+  left: 8%;
+  color: white;
+  margin-top: -8%;
+  margin-left: .6%;
+  color: white;
+}
+/*** RPG Game ***/
+.portimg2 {
+  float: right;
+  clear: right;
+  width: 30%;
+  height: 142px;
+  position: relative;
+  margin-right: 4%;
+  margin-top: 3%;
+}
+
+#rpg span {
+  position: absolute;
+  top: 234px;
+  background: #4aaaa5;
+  padding: 15px 60px;
+  margin-left: 15.9%;
+  color: white;
+  margin-top: -8%;
+  color: white;
+}
+/*** Trivia Game ***/
+.portimg3 {
+  float: left;
+  clear: left;
+  width: 37%;
+  height: 131px;
+  position: relative;
+  margin-left: 4%;
+  margin-top: 3%;
+}
+
+#trivia span {
+  position: absolute;
+  background: #4aaaa5;
+  padding: 15px 73px;
+  left: 60%;
+  color: white;
+  margin-top: 45%;
+  left: 55px;
+  color: white;
+}
+/*** Info Widget ***/
+.portimg4 {
+  float: right;
+  clear: right;
+  width: 30%;
+  height: 131px;
+  position: relative;
+  margin-right: 4%;
+  margin-top: 3%;
+}
+
+#infowidg span {
+  position: absolute;
+  background: #4aaaa5;
+  padding: 15px 31px;
+  left: 13.1%;
+  color: white;
+  margin-top: 45%;
+  margin-left: 47.6%;
+  color: white;
+}
+/*** Rock Paper Scissor ***/
+.portimg5 {
+  float: left;
+  clear: left;
+  width: 36%;
+  height: 139px;
+  position: relative;
+  margin-left: 4%;
+  margin-top: 3%;
+}
+
+#rock span {
+  position: absolute;
+  background: #4aaaa5;
+  padding: 15px 22px;
+  left: 8.3%;
+  color: white;
+  margin-top: 73%;
+  margin-left: .6%;
+  color: white;
+}
+
+/***** Connect Styling *****/
+.wrapper {
+  height: 196px;
+  width: 326px;
+  background: white;
+  float: left;
+  margin-left: 7%;
+  margin-top: 30px;
+}
+
+#special2 {
+  margin-left: 57%
+}
+
+.connect {
+  float: left;
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 16%;
+}
+
+a img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  float: right;
+}
+
+h3 {
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+  font-size: 35px;
+  color: #4aaaa5
+}
+
+/***** Footer Styling *****/
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  background-color: #666;
+  border-top: 6px solid #4aaaa5;
+  padding: 10px;
+}
