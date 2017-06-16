@@ -23,7 +23,7 @@ header {
 ul {
   float: right;
   list-style-type: none;
-  margin-right: 20%;
+  margin-right: 28%;
   padding-top: 15px;
 }
 
@@ -35,6 +35,15 @@ li {
 li a {
   padding: 20px;
   text-decoration: none;
+}
+
+.menu:hover {
+  opacity:.8;
+  background-color: #4aaaa5;
+}
+
+.menu span:hover {
+  color: white;
 }
 
 h1 {
@@ -56,7 +65,7 @@ h2 {
 
 #container{
   background-color: white;
-  width: 38%;
+  width: 32%;
   height: 406px;
   margin-top: 30px;
   float: left;
@@ -89,7 +98,7 @@ p {
 /***** Contact Form Styling *****/
 #container2 {
   background-color: white;
-  width: 38%;
+  width: 32%;
   max-height: 503px;
   margin-top: 30px;
   float: left;
@@ -168,7 +177,7 @@ textarea {
 }
 /***** Porftolio Styling *****/
 #container3 {
-  width: 33%;
+  width: 32%;
   height: 654px;
   background: white;
   position: absolute;
@@ -297,11 +306,11 @@ textarea {
 
 /***** Connect Styling *****/
 .wrapper {
-  height: 196px;
-  width: 326px;
+  height: 186px;
+  width: 17%;
   background: white;
   float: left;
-  margin-left: 7%;
+  margin-left: 4%;
   margin-top: 30px;
 }
 
@@ -317,17 +326,19 @@ textarea {
 }
 
 a img {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   display: flex;
   float: right;
+  margin-right: 1.1em;
 }
 
 h3 {
   text-align: center;
   border-bottom: 2px solid #ccc;
   font-size: 35px;
-  color: #4aaaa5
+  color: #4aaaa5;
+  margin-right: 0.6em;
 }
 
 /***** Footer Styling *****/
