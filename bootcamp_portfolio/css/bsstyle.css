@@ -1,0 +1,198 @@
+body {
+  background-image: url("../images/little_pluses.png");
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/***** Header Styling *****/
+
+header {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.navbar-default .navbar-text {
+  background-color: #4aaaaf;
+  padding: 15px 30px;
+  padding: 10px 20px;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#contitle {
+  font-size: 18px;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background: #4aaaaf;
+  color: white;
+}
+
+/***** About Styling *****/
+.profile {
+  width: 32%;
+}
+
+.wrapstyle {
+  background: white;
+  margin-top:
+}
+
+#wrapper {
+  padding: 20px;
+}
+
+h2 {
+  border-bottom: 3px solid #dcdcdc;
+  padding-top: 0;
+  margin-top: 1em;
+}
+
+.horizon {
+  width: 50%;
+  float: left;
+  margin-bottom: 9%;
+}
+/***** Connect Styling *****/
+#contitle {
+  text-align: center;
+}
+ul{
+  text-align: center;
+}
+.socmed {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+}
+
+#link {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#move {
+  margin-left: 113px;
+}
+
+#conlink {
+  margin-right:20px;
+  margin-left:20px;
+}
+
+/***** Portfolio Style *****/
+.portdiv {
+  background-color: white;
+}
+
+.portimg {
+  float: left;
+  width: 14.8em;
+  height: 115px;
+  position: relative;
+  margin-left: 3%;
+  margin-bottom: 3%;
+  border: 1px solid #4aaaaf;
+  display: inline-block;
+}
+
+.txtport {
+  background: #4aaaaf;
+  padding: 5px 10px;
+  position: absolute;
+  margin: 0;
+  margin-top: 20%;
+  margin-left: 3%;
+  text-align: center;
+  width: 70.2%;
+}
+
+h4 {
+  width: 48%;
+}
+
+/***** Contact Style *****/
+.input-group .form-control:last-child {
+  width: 100%;
+}
+
+
+.btn-primary {
+  margin-left: 15px;
+  margin-bottom: 15px;
+  background-color: #4aaaaf;
+}
+
+.txtstyle {
+  background: #4aaaaf;
+  padding: 5px 10px;
+}
+
+
+
+/***** Foot Style *****/
+footer {
+background-color: #666666;
+width: 100%;
+text-align: center;
+padding: 15px;
+margin-bottom: 0;
+border-top: 4px solid #4aaaaf;
+color: white;
+}
+
+@media screen and (max-width: 991px) {
+  /***** Head Style *****/
+  .medium {
+    width: 66.4%;
+  }
+  /***** Soc Med *****/
+  .horizon {
+    width: 100%;
+    float: left;
+    margin-bottom: 9%;
+    margin-top: 2%;
+  }
+
+  .wrapstyle {
+    width: 95.4%;
+    margin-left: 2%;
+  }
+  /*****Portfolio*****/
+  .portdiv {
+    width: 50%;
+    margin-left: 26%;
+  }
+
+  .portimg {
+    margin-left: 19%;
+  }
+
+  .txtport {
+    margin-left: 17.6%;
+    width: 54.8%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /***** Heading *****/
+  .medium {
+    width: 100%;
+  }
+  /***** Portfolio Style *****/
+  .portdiv {
+    margin-top: 7%;
+  }
+
+  .portimg {
+    margin-left: 15%;
+  }
+
+  .txtport {
+    margin-left: 13.8%;
+    width: 64.4%;
+  }
+  /***** Contact Style *****/
+  .wrapstyle {
+    margin-top: 10%;
+  }
+}
