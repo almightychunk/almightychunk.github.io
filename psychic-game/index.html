@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Psyhcic Game</title>
+  </head>
+  <body>
+    <h1>Take A Guess</h1>
+
+    <fieldset>
+      <p>Try and guess the letter the computer has picked, from A-Z</p>
+
+      <input type="text" id="guessInput" placeholder=" Guess a letter! "><br>
+    <button onclick="reset();">Reset</button>
+    </fieldset>
+
+    <fieldset>
+      <p>Your current status:</p>
+      <p id="win">Wins: </p>
+      <p id="loss">Losses: </p>
+      <p id="guess"></p>
+      <p id="alphaselect">Letters Already Selected: </p>
+    </fieldset>
+    <script type="text/javascript" src="game.js"></script>
+  </body>
+</html>
